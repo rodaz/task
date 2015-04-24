@@ -1,0 +1,85 @@
+@font_face{
+	font-family: glyphicon;
+	src: url(fonts/glyphicons-halflings-regular.eot);
+}
+body{
+	background-image: url(/images/back.jpg);
+}
+.add{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.panelka{
+	height: 52px; 
+	font-size: 20px;
+	font-style: bold;
+}
+
+.buttonDeleteList, .buttonEditList {
+	display: none;
+	float: right;
+	margin-right: 10px;
+}
+.buttonEditTask , .buttonDeleteTask, .buttonUpTask, .buttonDownTask{
+	display: none;
+}
+
+.listeN{
+	float: center;
+	width: 40%;
+	margin-left: 30%;
+	
+}
+.formo4ka{
+  	width: 90%;
+  	float: right;
+  	 
+}
+.addTask{
+	color: #b94a48;
+  	background-color: #f2dede;
+  	border-color: #ebccd1;
+  	height: 52px; 
+}
+.plusTask{
+	font-size: 25px;
+	font-style: bold;
+	color: #5cb85c;	
+}
+.taskOptions, .taskOptions1{
+	float: right;
+}
+.ul-list{	
+	margin-bottom: 0px;
+}
+.taskOptions{
+	border-left: 2px solid #ddd;
+}
+.check{
+	border-right: 2px double #ddd;
+	border-left: 2px double #ddd;
+}
+.ulli{
+	position: relative;
+	width:100%;
+}
+.formEditList{
+	width: 40%;
+	float: left;
+}
+#errorName{
+	border: solid;
+	margin-top: 15px;
+	margin-top: 10px;
+	width: 250px;
+	border-color: #7A0030;
+	display: none;
+}
+.sPanel{
+	margin-left: 10px;
+}
+
+#createNewList{
+	display: none;
+	} 
